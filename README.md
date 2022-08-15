@@ -1,5 +1,6 @@
-## node_demo
-nodejs +express +mysql 写后端接口 ,包括增删改查, 图片上传, 分页, 模糊查询, 排序 ,简单实用, 实现了接口路由
+## 简介
+nodejs +express +mysql 写后端接口 ,包括增删改查, 图片上传, 分页, 模糊查询, 排序 ,简单实用, 实现了接口路由,更加完整的项目可以查看
+[这个项目](https://github.com/kangleyunju/nodejs_vue3_uniapp),该项目包含nodejs接口,移动端和后台
 
 
 ## 步骤
@@ -20,13 +21,15 @@ npm start
 
 
 ## 目录
-- api  接口
-- node_modules 依赖文件
-- upload 图片上传文件夹
-- app.js  入口文件
-- db.js  数据库配置文件
-- package.json 
-- package-lock.json 
+- api                接口
+- node_modules       依赖文件
+- upload             图片上传文件夹
+- app.js             入口文件
+- db.js              数据库配置文件
+- package.json       
+- package-lock.json
+- README.md          
+- test.sql           数据库
 
 ## 接口示例
 ```
@@ -77,4 +80,4 @@ http://localhost:3000/user/person?user_id=10001
 
 
 ## 联系我
-邮箱249042680@qq.com
+邮箱 249042680@qq.com
