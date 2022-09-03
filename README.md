@@ -1,26 +1,34 @@
-## 简介
-nodejs +express +mysql 写后端接口 ,包括增删改查, 图片上传, 分页, 模糊查询, 排序 ,简单实用, 实现了接口路由,更加完整的项目可以查看
-[这个项目](https://github.com/kangleyunju/nodejs_vue3_uniapp),该项目包含nodejs接口,移动端和后台
+### 简介
+nodejs+express+mysql操作数据库，简单实用，包括增删改查、图片上传、分页、模糊查询、排序、接口路由等，更加完整的项目可以查看
+[nodejs_vue3_uniapp](https://github.com/kangleyunju/nodejs_vue3_uniapp)，该项目包含nodejs接口，移动端和后台
 
+### 邮箱
+249042680@qq.com
 
-## 步骤
+### 仓库
+[gitee](https://gitee.com/kangleyunju/node_express)
+
+[github](https://github.com/kangleyunju/node_express)
+
+### 步骤
+先把test.sql导入mysql数据库，可以用Navicat Premium 12运行sql文件
+
+### 下载
 ```
-//先把test.sql 导入mysql数据库, 可以用Navicat Premium 12
-运行sql文件
-
-//先下载依赖
 npm install
-
-//接口调试, 便于实时更新
-npm i supervisor -g
-supervisor app.js
-
-//启动
+```
+### 运行
+```
 npm start
 ```
 
+### 接口调试, 便于实时更新
+```
+npm i supervisor -g
+supervisor app.js
+```
 
-## 目录
+### 目录
 - api                接口
 - node_modules       依赖文件
 - upload             图片上传文件夹
@@ -31,7 +39,7 @@ npm start
 - README.md          
 - test.sql           数据库
 
-## 接口示例
+### 接口示例
 ```
 //查询某个用户信息
 router.get("/person",(req,res) => {
@@ -56,7 +64,7 @@ router.get("/person",(req,res) => {
 })
 ```
 
-## 接口调用示例
+### 接口调用示例
 ``` 
 //查询某个用户信息,get请求
 http://localhost:3000/user/person?user_id=10001
@@ -77,7 +85,3 @@ http://localhost:3000/user/person?user_id=10001
   }
 }
 ```
-
-
-## 联系我
-邮箱 249042680@qq.com
