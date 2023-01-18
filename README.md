@@ -2,13 +2,16 @@
 nodejs+express+mysql操作数据库，简单实用，包括增删改查、图片上传、分页、模糊查询、排序、接口路由等，更加完整的项目可以查看
 [nodejs_vue3_uniapp](https://github.com/kangleyunju/nodejs_vue3_uniapp)，该项目包含nodejs接口，移动端和后台
 
+### 技术栈
+nodejs，express，mysql
+
 ### 邮箱
-249042680@qq.com
+有问题可以提Issue，或者发邮件：249042680@qq.com，觉得不错可以点个赞
 
 ### 仓库
-[gitee](https://gitee.com/kangleyunju/node_express)
-
-[github](https://github.com/kangleyunju/node_express)
+| gitee | github |
+| --- | --- |
+| [node_express](https://gitee.com/kangleyunju/node_express) | [node_express](https://github.com/kangleyunju/node_express) |
 
 ### 步骤
 先把test.sql导入mysql数据库，可以用Navicat Premium 12运行sql文件
